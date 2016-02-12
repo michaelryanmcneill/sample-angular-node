@@ -16,12 +16,9 @@ git clone https://github.com/michaelryanmcneill/sample-angular-node.git
 ```
 Create a config.js file using config.sample.js as a template. Fill in your Twitter App API Keys. You will need to [create a Twitter application](https://apps.twitter.com/).
 
-Install node module dependencies:
-
-Copy the contents of the repository, including the .openshift/ directory to your private OpenShift repository and commit and deploy the changes. 
+Copy the contents of the repository, including the .openshift/ directory and the config.js file to your private OpenShift repository and commit and deploy the changes. 
 
 Once the deploy completes, go to [http://example-namespace.rhcloud.com](http://example-namespace.rhcloud.com) in your browser.
-
 
 Resources
 ----
