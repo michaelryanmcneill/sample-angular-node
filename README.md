@@ -1,36 +1,26 @@
 Rendering Tweets with Angular & Node
 ===================
 
-Sample application using Angular.js, Node.js, and Twitter API.
+Sample application using Angular.js, Node.js, and Twitter API for use on OpenShift.
 
 
 Installing and Running
 ----
 
-Install [Node.js](http://nodejs.org/).
+Spin up a Node.js 0.10 cartridge (or higher) on [OpenShift Online](http://www.openshift.com) or OpenShift Enterprise.
 
-Clone GitHub repo:
+Clone GitHub repo locally:
 
 ```
-git clone https://github.com/twitterdev/sample-angular-node.git
+git clone https://github.com/michaelryanmcneill/sample-angular-node.git
 ```
 Create a config.js file using config.sample.js as a template. Fill in your Twitter App API Keys. You will need to [create a Twitter application](https://apps.twitter.com/).
 
 Install node module dependencies:
 
-```
-npm install 
-```
+Copy the contents of the repository, including the .openshift/ directory to your private OpenShift repository and commit and deploy the changes. 
 
-Run application:
-
-```
-npm start
-```
-
-Go to [http://localhost:5000](http://localhost:5000) in your browser.
-
-
+Once the deploy completes, go to [http://example-namespace.openshiftonline.com](http://example-namespace.openshiftonline.com) in your browser.
 
 
 Resources
