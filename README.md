@@ -20,7 +20,7 @@ Install node module dependencies:
 
 Copy the contents of the repository, including the .openshift/ directory to your private OpenShift repository and commit and deploy the changes. 
 
-Once the deploy completes, go to [http://example-namespace.openshiftonline.com](http://example-namespace.openshiftonline.com) in your browser.
+Once the deploy completes, go to [http://example-namespace.rhcloud.com](http://example-namespace.rhcloud.com) in your browser.
 
 
 Resources
