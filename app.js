@@ -20,7 +20,8 @@ app.use('/tweets', tweets);
 
 module.exports = app;
 
-var port = process.env.PORT || 5000;
-app.listen(port, function() {
+var server_port = process.env.OPENSHIFT_NODEJS_PORT;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP;
+app.listen(server_port, server_ip_address, function() {
   console.log('Listening on ' + port);
 });
